@@ -1,0 +1,174 @@
+
+/* ====================================
+   DUPETEC - ESTILOS PERSONALIZADOS
+   Tarea Final WADE 1000
+   ==================================== */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #212529;
+    margin: 0;
+}
+
+/* Encabezado principal */
+header {
+    background: linear-gradient(135deg, #081b33, #1256a0);
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: #102b4e !important;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #66c2ff;
+}
+
+/* Títulos de las secciones */
+section h2,
+aside h2 {
+    color: #123c69;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas de servicios */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #1256a0;
+    font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #1256a0;
+    border-color: #1256a0;
+}
+
+.btn-primary:hover {
+    background-color: #083766;
+    border-color: #083766;
+}
+
+/* Información adicional */
+aside {
+    background-color: #e4edf7;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #081b33 !important;
+    padding: 20px;
+}
+
+/* Diseño responsivo para móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* ====================================
+   CARRUSEL DE IMÁGENES - DUPETEC
+   ==================================== */
+
+/* Contenedor principal */
+#carruselDupeTec {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #081b33;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Todas las imágenes tendrán el mismo espacio */
+#carruselDupeTec .carousel-item {
+    height: 420px;
+}
+
+/* Ajustar las imágenes al espacio disponible */
+#carruselDupeTec .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Texto del carrusel */
+#carruselDupeTec .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Adaptación para tabletas */
+@media (max-width: 992px) {
+    #carruselDupeTec .carousel-item {
+        height: 320px;
+    }
+}
+
+/* Adaptación para celulares */
+@media (max-width: 576px) {
+    #carruselDupeTec .carousel-item {
+        height: 220px;
+    }
+
+    #carruselDupeTec .carousel-caption {
+        padding: 5px;
+        bottom: 5px;
+    }
+
+    #carruselDupeTec .carousel-caption h3 {
+        font-size: 16px;
+    }
+
+    #carruselDupeTec .carousel-caption p {
+        font-size: 12px;
+    }
+}

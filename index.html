@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración básica de HTML5 -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="DupeTec ofrece diseño y desarrollo de páginas web para restaurantes, negocios y tiendas online.">
+
+    <title>DupeTec | Diseño y Desarrollo Web</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- HEADER: encabezado principal -->
+    <header class="bg-dark text-white text-center p-4">
+        <h1>DupeTec</h1>
+        <p>Soluciones digitales para tu negocio</p>
+    </header>
+
+    <!-- NAV: menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                DupeTec
+            </a>
+
+            <!-- Botón para menú en dispositivos móviles -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Inicio -->
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <!-- Menú desplegable de tipos de páginas -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="menuTipos"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Tipos de páginas
+                        </a>
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="menuTipos">
+
+                            <li>
+                                <a class="dropdown-item"
+                                   href="restaurantes.html">
+                                    Restaurantes
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item"
+                                   href="informativas.html">
+                                    Páginas informativas
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item"
+                                   href="tiendas.html">
+                                    Tiendas online
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- Servicios -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">
+                            Servicios
+                        </a>
+                    </li>
+
+<!-- Proyectos -->
+<li class="nav-item">
+    <a class="nav-link" href="proyectos.html">
+        Proyectos
+    </a>
+</li>
+
+                    <!-- Contacto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN: contenido principal -->
+    <main>
+
+        <!-- SECTION: bienvenida -->
+        <section class="container text-center my-5">
+
+            <h2>Bienvenidos a DupeTec</h2>
+
+            <p>
+                Creamos páginas web modernas, atractivas
+                y funcionales para ayudar a los negocios
+                a tener presencia en Internet.
+            </p>
+
+        </section>
+
+<!-- SECTION: carrusel interactivo de imágenes -->
+<section class="container my-5" aria-label="Ejemplos de nuestros servicios">
+
+    <h2 class="text-center mb-4">
+        Descubre lo que podemos crear para ti
+    </h2>
+
+    <div id="carruselDupeTec"
+         class="carousel slide"
+         aria-label="Carrusel de servicios">
+
+        <div class="carousel-inner">
+
+            <!-- Primera imagen -->
+            <div class="carousel-item active">
+                <img src="imagenes/restaurantes.jpg"
+                     class="d-block w-100"
+                     alt="Diseño web para restaurantes">
+
+                <div class="carousel-caption">
+                    <h3>Restaurantes</h3>
+                    <p>Menús digitales y páginas modernas.</p>
+                </div>
+            </div>
+
+            <!-- Segunda imagen -->
+            <div class="carousel-item">
+                <img src="imagenes/informativas.jpg"
+                     class="d-block w-100"
+                     alt="Diseño de páginas informativas">
+
+                <div class="carousel-caption">
+                    <h3>Páginas informativas</h3>
+                    <p>Presenta tu negocio o profesión.</p>
+                </div>
+            </div>
+
+            <!-- Tercera imagen -->
+            <div class="carousel-item">
+                <img src="imagenes/tiendas.jpg"
+                     class="d-block w-100"
+                     alt="Diseño de tiendas online">
+
+                <div class="carousel-caption">
+                    <h3>Tiendas online</h3>
+                    <p>Catálogos digitales para tus productos.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botón anterior -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carruselDupeTec"
+                data-bs-slide="prev"
+                aria-label="Imagen anterior">
+
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+        </button>
+
+        <!-- Botón siguiente -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carruselDupeTec"
+                data-bs-slide="next"
+                aria-label="Imagen siguiente">
+
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+        </button>
+
+    </div>
+</section>
+
+
+        <!-- SECTION: servicios -->
+        <section class="container my-5" id="servicios">
+
+            <h2 class="text-center mb-4">
+                Nuestros Servicios
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- ARTICLE: restaurantes -->
+                <article class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title h5">
+                                Restaurantes
+                            </h3>
+
+                            <p class="card-text">
+                                Diseñamos páginas web para
+                                restaurantes con menús digitales,
+                                horarios, información del negocio
+                                y opciones de contacto.
+                            </p>
+
+                            <a href="restaurantes.html"
+                               class="btn btn-primary mt-auto">
+                                Ver más
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ARTICLE: páginas informativas -->
+                <article class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title h5">
+                                Páginas Informativas
+                            </h3>
+
+                            <p class="card-text">
+                                Creamos páginas informativas
+                                para médicos, profesionales,
+                                empresas y diferentes negocios
+                                que desean presentar sus servicios.
+                            </p>
+
+                            <a href="informativas.html"
+                               class="btn btn-primary mt-auto">
+                                Ver más
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ARTICLE: tiendas online -->
+                <article class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body d-flex flex-column">
+
+                            <h3 class="card-title h5">
+                                Tiendas Online
+                            </h3>
+
+                            <p class="card-text">
+                                Desarrollamos tiendas virtuales
+                                y catálogos digitales para
+                                mostrar productos y facilitar
+                                que los clientes conozcan
+                                lo que ofrece cada negocio.
+                            </p>
+
+                            <a href="tiendas.html"
+                               class="btn btn-primary mt-auto">
+                                Ver más
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ASIDE: información adicional -->
+        <aside class="container text-center my-5">
+
+            <h2>¿Por qué elegir DupeTec?</h2>
+
+            <p>
+                Ofrecemos soluciones digitales adaptadas
+                a las necesidades de cada cliente,
+                con diseños modernos, funcionales
+                y compatibles con diferentes dispositivos.
+            </p>
+
+        </aside>
+
+        <!-- SECTION: contacto -->
+        <section class="container text-center my-5"
+                 id="contacto">
+
+            <h2>Contáctanos</h2>
+
+            <p>
+                ¿Necesitas una página web para tu negocio?
+                En DupeTec podemos ayudarte a crear
+                una solución digital adaptada
+                a tus necesidades.
+            </p>
+
+            <p>
+                Explora nuestros servicios y descubre
+                las opciones disponibles.
+            </p>
+
+<!-- FORMULARIO DE CONTACTO DUPETEC -->
+<form id="formularioContacto" class="text-start mx-auto mt-4"
+      style="max-width: 650px;" novalidate>
+
+<!-- Nombre y apellido -->
+<div class="mb-3">
+    <label for="nombre" class="form-label">
+        Nombre y apellido
+    </label>
+
+    <input type="text"
+           class="form-control"
+           id="nombre"
+           name="nombre"
+           placeholder="Ejemplo: Juan Pérez"
+           autocomplete="name"
+           required>
+
+    <small id="errorNombre" class="text-danger"></small>
+</div>
+
+    <!-- Correo electrónico -->
+    <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control"
+               id="correo" name="correo"
+               placeholder="ejemplo@correo.com"
+               autocomplete="email" required>
+        <small id="errorCorreo" class="text-danger"></small>
+    </div>
+
+    <!-- Tipo de servicio -->
+    <div class="mb-3">
+        <label for="servicio" class="form-label">
+            Tipo de página web
+        </label>
+        <select id="servicio" name="servicio"
+                class="form-select" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="restaurantes">Restaurantes</option>
+            <option value="informativas">Páginas informativas</option>
+            <option value="tiendas">Tiendas online</option>
+        </select>
+        <small id="errorServicio" class="text-danger"></small>
+    </div>
+
+    <!-- Mensaje -->
+    <div class="mb-3">
+        <label for="mensaje" class="form-label">
+            Describe tu proyecto
+        </label>
+        <textarea id="mensaje" name="mensaje"
+                  class="form-control" rows="4"
+                  placeholder="Cuéntanos qué tipo de página necesitas"
+                  required></textarea>
+        <small id="errorMensaje" class="text-danger"></small>
+    </div>
+
+    <!-- Botón -->
+    <button type="submit" class="btn btn-primary w-100">
+        Enviar solicitud
+    </button>
+
+    <!-- Mensaje de resultado -->
+    <p id="resultadoFormulario" class="mt-3"
+       role="status" aria-live="polite"></p>
+
+</form>
+<!-- FIN DEL FORMULARIO -->
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER: pie de página -->
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p class="mb-0">
+            &copy; 2026 DupeTec.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript personalizado -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+PROYECTO FINAL - WADE 1000
+=====================================
+
+NOMBRE DEL PROYECTO:
+DupeTec - Sitio Web de Servicios Digitales
+
+DESCRIPCIÓN:
+Este proyecto consiste en un sitio web
+responsivo para DupeTec, un negocio dedicado
+al diseño y desarrollo de páginas web.
+
+El sitio presenta servicios para restaurantes,
+páginas informativas y tiendas online.
+También incluye ejemplos de proyectos y
+formularios interactivos de demostración.
+
+TECNOLOGÍAS UTILIZADAS:
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Visual Studio Code
+- GitHub
+
+ARCHIVOS HTML:
+1. index.html
+2. restaurantes.html
+3. menus-digitales.html
+4. reservaciones.html
+5. informativas.html
+6. medicos.html
+7. negocios.html
+8. tiendas.html
+9. catalogos.html
+10. pagos-online.html
+11. proyectos.html
+
+ESTRUCTURA DEL PROYECTO:
+- css/estilos.css
+- js/script.js
+- imagenes/restaurantes.jpg
+- imagenes/informativas.jpg
+- imagenes/tiendas.jpg
+
+FUNCIONES IMPLEMENTADAS:
+- Navegación entre páginas.
+- Diseño responsivo con Bootstrap.
+- Carrusel de imágenes.
+- Cambio automático de imágenes.
+- Pausa del carrusel al pasar el cursor.
+- Efectos visuales en las tarjetas.
+- Botones para mostrar y ocultar información.
+- Validación de formularios con JavaScript.
+- Validación de nombre y apellido.
+- Formularios de contacto y reservaciones
+  utilizados como demostración.
+
+INSTRUCCIONES PARA ABRIR EL PROYECTO:
+1. Descomprimir el archivo ZIP.
+2. Abrir la carpeta DupeTec_Final_WADE1000.
+3. Hacer doble clic en index.html.
+4. Navegar por las diferentes secciones.
+5. Tener conexión a Internet para cargar
+   los recursos de Bootstrap desde CDN.
+
+NOTA IMPORTANTE:
+Los formularios son demostrativos.
+No envían mensajes, reservaciones ni
+procesan pagos reales.
+
+AUTOR:
+Ernie J. Duperoy Rodríguez
+
+CURSO:
+WADE 1000
+
+AÑO:
+2026
