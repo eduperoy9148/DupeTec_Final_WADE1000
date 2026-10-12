@@ -77,3 +77,16 @@ WADE 1000
 
 AÑO:
 2026
+
+=====================================
+REPOSITORIO DE GITHUB
+=====================================
+
+El código fuente de este proyecto está
+disponible en mi repositorio de GitHub.
+
+ENLACE DEL REPOSITORIO:
+https://github.com/TU-USUARIO/DupeTec_Final_WADE1000
+En este repositorio se encuentran los
+archivos HTML, CSS, JavaScript y las
+imágenes utilizadas en el proyecto.
